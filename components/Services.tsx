@@ -40,7 +40,7 @@ const Services = () => {
       iconColor: 'text-red-500'
     },
     {
-      icon: FaAcupuncture,
+      icon: FaDotCircle,
       title: t('acupuncture.title'),
       description: t('acupuncture.description'),
       color: 'from-green-500 to-green-600',
