@@ -4,9 +4,9 @@ import { useTranslations } from 'next-intl'
 import { motion } from 'framer-motion'
 import { 
   FaHeartbeat, 
-  FaLaser, 
+  FaLightbulb, 
   FaHandHoldingHeart, 
-  FaAcupuncture,
+  FaDotCircle,
   FaStar,
   FaArrowRight
 } from 'react-icons/fa'
@@ -24,7 +24,7 @@ const Services = () => {
       iconColor: 'text-blue-500'
     },
     {
-      icon: FaLaser,
+      icon: FaLightbulb,
       title: t('laserTreatments.title'),
       description: t('laserTreatments.description'),
       color: 'from-purple-500 to-purple-600',
