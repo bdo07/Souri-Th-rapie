@@ -73,9 +73,10 @@ const Header = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-teal transition-colors duration-200 font-medium"
+                className="text-royal-blue hover:text-teal hover:scale-105 transition-all duration-300 font-semibold relative group"
               >
                 {item.name}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-teal to-royal-blue group-hover:w-full transition-all duration-300"></span>
               </Link>
             ))}
           </nav>
@@ -84,20 +85,20 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             {/* Language Switcher */}
             <div className="relative group">
-              <button className="flex items-center space-x-2 text-gray-700 hover:text-teal transition-colors duration-200">
-                <FaGlobe className="w-4 h-4" />
-                <span>{languages.find(lang => lang.code === locale)?.flag}</span>
-              </button>
+                             <button className="flex items-center space-x-2 text-royal-blue hover:text-teal transition-all duration-300 hover:scale-110">
+                 <FaGlobe className="w-4 h-4" />
+                 <span className="text-lg">{languages.find(lang => lang.code === locale)?.flag}</span>
+               </button>
               <div className="absolute top-full right-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 {languages.map((language) => (
-                  <Link
-                    key={language.code}
-                    href={pathname.replace(`/${locale}`, `/${language.code}`)}
-                    className="flex items-center space-x-3 px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors duration-200"
-                  >
-                    <span>{language.flag}</span>
-                    <span>{language.name}</span>
-                  </Link>
+                                     <Link
+                     key={language.code}
+                     href={pathname.replace(`/${locale}`, `/${language.code}`)}
+                     className="flex items-center space-x-3 px-4 py-2 text-royal-blue hover:bg-teal/10 hover:text-teal transition-all duration-200 rounded-md"
+                   >
+                     <span className="text-lg">{language.flag}</span>
+                     <span className="font-medium">{language.name}</span>
+                   </Link>
                 ))}
               </div>
             </div>
@@ -144,7 +145,7 @@ const Header = () => {
                   key={item.name}
                   href={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="block text-gray-700 hover:text-teal transition-colors duration-200 font-medium"
+                  className="block text-royal-blue hover:text-teal hover:translate-x-2 transition-all duration-300 font-semibold py-2"
                 >
                   {item.name}
                 </Link>
@@ -154,15 +155,15 @@ const Header = () => {
               <div className="pt-4 border-t border-gray-200">
                 <div className="flex items-center space-x-4">
                   {languages.map((language) => (
-                    <Link
-                      key={language.code}
-                      href={pathname.replace(`/${locale}`, `/${language.code}`)}
-                      onClick={() => setIsMenuOpen(false)}
-                      className="flex items-center space-x-2 text-gray-700 hover:text-teal transition-colors duration-200"
-                    >
-                      <span>{language.flag}</span>
-                      <span>{language.name}</span>
-                    </Link>
+                                         <Link
+                       key={language.code}
+                       href={pathname.replace(`/${locale}`, `/${language.code}`)}
+                       onClick={() => setIsMenuOpen(false)}
+                       className="flex items-center space-x-2 text-royal-blue hover:text-teal hover:scale-105 transition-all duration-200 font-medium"
+                     >
+                       <span className="text-lg">{language.flag}</span>
+                       <span>{language.name}</span>
+                     </Link>
                   ))}
                 </div>
               </div>
