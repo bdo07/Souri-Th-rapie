@@ -61,7 +61,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-xl md:text-2xl lg:text-3xl font-medium text-gray-700"
+                            className="text-xl md:text-2xl lg:text-3xl font-medium text-royal-blue"
           >
             {t('subtitle')}
           </motion.h2>
