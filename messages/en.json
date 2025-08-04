@@ -1,0 +1,76 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to Souri Thérapie",
+    "subtitle": "Your Wellness & Beauty Destination",
+    "description": "Experience comprehensive health and aesthetic services tailored to your needs. From physical therapy to advanced laser treatments, we're here to enhance your well-being and beauty.",
+    "appointment": "Book Appointment",
+    "callUs": "Call Us"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Health & Beauty Solutions",
+    "physicalTherapy": {
+      "title": "Physical Therapy",
+      "description": "Professional rehabilitation and physical therapy services to restore mobility and reduce pain."
+    },
+    "laserTreatments": {
+      "title": "Laser Treatments",
+      "description": "Advanced laser therapy for skin rejuvenation, hair removal, and various aesthetic procedures."
+    },
+    "cuppingTherapy": {
+      "title": "Cupping Therapy",
+      "description": "Traditional cupping therapy for pain relief, blood circulation, and overall wellness."
+    },
+    "acupuncture": {
+      "title": "Acupuncture",
+      "description": "Ancient Chinese medicine technique using fine needles to promote healing and balance."
+    },
+    "additionalServices": {
+      "title": "Additional Services",
+      "description": "Specialized medical and beauty treatments to promote body health and skin beauty."
+    }
+  },
+  "about": {
+    "title": "About Souri Thérapie",
+    "subtitle": "Your Trusted Wellness Partner",
+    "description": "At Souri Thérapie, we combine traditional healing methods with modern medical technology to provide comprehensive wellness solutions. Our experienced team is dedicated to helping you achieve optimal health and beauty.",
+    "experience": "Years of Experience",
+    "patients": "Happy Patients",
+    "treatments": "Successful Treatments"
+  },
+  "testimonials": {
+    "title": "What Our Patients Say",
+    "subtitle": "Real Stories, Real Results"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch Today",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Working Hours",
+    "hoursValue": "Monday - Friday: 9:00 AM - 7:00 PM\nSaturday: 9:00 AM - 5:00 PM\nSunday: Closed",
+    "getDirections": "Get Directions"
+  },
+  "footer": {
+    "description": "Souri Thérapie - Your premier destination for wellness and beauty treatments.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2024 Souri Thérapie. All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "bookNow": "Book Now",
+    "readMore": "Read More",
+    "sendMessage": "Send Message"
+  }
+} 

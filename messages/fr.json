@@ -1,0 +1,76 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À Propos",
+    "testimonials": "Témoignages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bienvenue à Souri Thérapie",
+    "subtitle": "Votre Destination Bien-être & Beauté",
+    "description": "Découvrez des services de santé et d'esthétique complets adaptés à vos besoins. De la physiothérapie aux traitements laser avancés, nous sommes là pour améliorer votre bien-être et votre beauté.",
+    "appointment": "Prendre Rendez-vous",
+    "callUs": "Nous Appeler"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions Complètes de Santé & Beauté",
+    "physicalTherapy": {
+      "title": "Physiothérapie",
+      "description": "Services professionnels de réadaptation et de physiothérapie pour restaurer la mobilité et réduire la douleur."
+    },
+    "laserTreatments": {
+      "title": "Traitements Laser",
+      "description": "Thérapie laser avancée pour le rajeunissement de la peau, l'épilation et diverses procédures esthétiques."
+    },
+    "cuppingTherapy": {
+      "title": "Thérapie par Ventouses",
+      "description": "Thérapie traditionnelle par ventouses pour soulager la douleur, améliorer la circulation sanguine et le bien-être général."
+    },
+    "acupuncture": {
+      "title": "Acupuncture",
+      "description": "Technique de médecine chinoise ancienne utilisant des aiguilles fines pour promouvoir la guérison et l'équilibre."
+    },
+    "additionalServices": {
+      "title": "Services Supplémentaires",
+      "description": "Traitements médicaux et esthétiques spécialisés pour promouvoir la santé du corps et la beauté de la peau."
+    }
+  },
+  "about": {
+    "title": "À Propos de Souri Thérapie",
+    "subtitle": "Votre Partenaire Bien-être de Confiance",
+    "description": "Chez Souri Thérapie, nous combinons les méthodes de guérison traditionnelles avec la technologie médicale moderne pour fournir des solutions de bien-être complètes. Notre équipe expérimentée se consacre à vous aider à atteindre une santé et une beauté optimales.",
+    "experience": "Années d'Expérience",
+    "patients": "Patients Satisfaits",
+    "treatments": "Traitements Réussis"
+  },
+  "testimonials": {
+    "title": "Ce que Disent Nos Patients",
+    "subtitle": "Vraies Histoires, Vrais Résultats"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Contactez-nous Aujourd'hui",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "Email",
+    "hours": "Heures d'Ouverture",
+    "hoursValue": "Lundi - Vendredi: 9h00 - 19h00\nSamedi: 9h00 - 17h00\nDimanche: Fermé",
+    "getDirections": "Obtenir l'Itinéraire"
+  },
+  "footer": {
+    "description": "Souri Thérapie - Votre destination de premier choix pour les traitements de bien-être et de beauté.",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions de Service",
+    "copyright": "© 2024 Souri Thérapie. Tous droits réservés."
+  },
+  "common": {
+    "learnMore": "En Savoir Plus",
+    "bookNow": "Réserver Maintenant",
+    "readMore": "Lire Plus",
+    "sendMessage": "Envoyer un Message"
+  }
+} 
