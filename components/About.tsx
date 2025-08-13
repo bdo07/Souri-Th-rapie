@@ -16,7 +16,7 @@ const About = () => {
     },
     {
       icon: FaUsers,
-      number: '1000+',
+      number: '100+',
       label: t('patients'),
       color: 'text-royal-blue'
     },
