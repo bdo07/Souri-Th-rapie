@@ -53,10 +53,16 @@
     "title": "Contactez-nous",
     "subtitle": "Contactez-nous Aujourd'hui",
     "address": "Adresse",
+    "addressValue": "Ville de Safi, Jnane colone, près de l'École des Instituteurs",
     "phone": "Téléphone",
     "email": "Email",
     "hours": "Heures d'Ouverture",
     "hoursValue": "Lundi - Vendredi: 9h00 - 19h00\nSamedi: 9h00 - 17h00\nDimanche: Fermé",
+    "visitClinic": "Visitez Notre Clinique",
+    "needAssistance": "Besoin d'Aide Immédiate ?",
+    "assistanceDescription": "Notre équipe est là pour vous aider avec toutes vos questions ou préoccupations",
+    "whatsapp": "WhatsApp",
+    "callNow": "Appeler Maintenant",
     "getDirections": "Obtenir l'Itinéraire"
   },
   "footer": {
@@ -65,7 +71,7 @@
     "services": "Services",
     "privacy": "Politique de Confidentialité",
     "terms": "Conditions de Service",
-    "copyright": "© 2024 Souri Thérapie. Tous droits réservés."
+    "copyright": "© 2025 Souri Thérapie. Tous droits réservés."
   },
   "common": {
     "learnMore": "En Savoir Plus",

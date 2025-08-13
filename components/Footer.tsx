@@ -32,7 +32,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: FaFacebook, href: '#', label: 'Facebook' },
-    { icon: FaInstagram, href: '#', label: 'Instagram' },
+    { icon: FaInstagram, href: 'https://www.instagram.com/souri_therapie?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', label: 'Instagram' },
     { icon: FaTwitter, href: '#', label: 'Twitter' },
     { icon: FaLinkedin, href: '#', label: 'LinkedIn' },
   ]
@@ -119,7 +119,7 @@ const Footer = () => {
                 <FaMapMarkerAlt className="w-5 h-5 text-teal mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-gray-300 text-sm">
-                    123 Wellness Street, Medical District
+                  Jnane colone, near the Teachers' School
                   </p>
                   <p className="text-gray-300 text-sm">SAFI, MOROCCO</p>
                 </div>
@@ -139,7 +139,7 @@ const Footer = () => {
                   href="mailto:info@souri-therapie.com"
                   className="text-gray-300 hover:text-teal transition-colors duration-300 text-sm"
                 >
-                  info@souri-therapie.com
+                  souritherapie@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">

@@ -53,10 +53,16 @@
     "title": "Contact Us",
     "subtitle": "Get in Touch Today",
     "address": "Address",
+    "addressValue": "City of Safi, Jnane colone, near the Teachers' School",
     "phone": "Phone",
     "email": "Email",
     "hours": "Working Hours",
     "hoursValue": "Monday - Friday: 9:00 AM - 7:00 PM\nSaturday: 9:00 AM - 5:00 PM\nSunday: Closed",
+    "visitClinic": "Visit Our Clinic",
+    "needAssistance": "Need Immediate Assistance?",
+    "assistanceDescription": "Our team is here to help you with any questions or concerns",
+    "whatsapp": "WhatsApp",
+    "callNow": "Call Now",
     "getDirections": "Get Directions"
   },
   "footer": {
@@ -65,7 +71,7 @@
     "services": "Services",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "copyright": "© 2024 Souri Thérapie. All rights reserved."
+    "copyright": "© 2025 Souri Thérapie. All rights reserved."
   },
   "common": {
     "learnMore": "Learn More",
