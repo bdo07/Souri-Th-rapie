@@ -99,6 +99,7 @@ const About = () => {
             viewport={{ once: true }}
             className="relative"
           >
+            
             {/* Main Image */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
