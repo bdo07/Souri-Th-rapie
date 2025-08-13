@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale, getMessages } from 'next-intl/server'
+import { NextIntlClientProvider } from 'next-intl'
 
 type Props = {
   children: React.ReactNode
@@ -65,10 +66,22 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   }
 }
 
-export default function LocaleLayout({ children, params: { locale } }: Props) {
+export default async function LocaleLayout({ children, params: { locale } }: Props) {
+  // Enable static rendering by setting the locale
+  setRequestLocale(locale)
+  
+  // Get messages for the current locale
+  const messages = await getMessages()
+  
   return (
-    <div className={locale === 'ar' ? 'font-arabic' : 'font-english'}>
-      {children}
-    </div>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
+      <body>
+        <NextIntlClientProvider messages={messages}>
+          <div className={locale === 'ar' ? 'font-arabic' : 'font-english'}>
+            {children}
+          </div>
+        </NextIntlClientProvider>
+      </body>
+    </html>
   )
 } 
