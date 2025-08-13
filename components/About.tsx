@@ -16,13 +16,13 @@ const About = () => {
     },
     {
       icon: FaUsers,
-      number: '1000+',
+      number: '10000+',
       label: t('patients'),
       color: 'text-royal-blue'
     },
     {
       icon: FaHeart,
-      number: '5000+',
+      number: '50000+',
       label: t('treatments'),
       color: 'text-teal'
     }
