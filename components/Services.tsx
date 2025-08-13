@@ -156,7 +156,7 @@ const Services = () => {
               Book your consultation today and experience the difference
             </p>
             <button
-              onClick={() => window.open('https://wa.me/2126XXXXXXX', '_blank')}
+              onClick={() => window.open('https://wa.me/212770918995', '_blank')}
               className="bg-white text-teal px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 flex items-center space-x-2 mx-auto"
             >
               <FaHeartbeat className="w-5 h-5" />

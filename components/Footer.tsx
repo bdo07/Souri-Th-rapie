@@ -121,16 +121,16 @@ const Footer = () => {
                   <p className="text-gray-300 text-sm">
                     123 Wellness Street, Medical District
                   </p>
-                  <p className="text-gray-300 text-sm">City, Country</p>
+                  <p className="text-gray-300 text-sm">SAFI, MOROCCO</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <FaPhone className="w-5 h-5 text-teal flex-shrink-0" />
                 <a
-                  href="tel:+2126XXXXXXX"
+                  href="tel:+212770918995"
                   className="text-gray-300 hover:text-teal transition-colors duration-300 text-sm"
                 >
-                  +212 6XX XX XX XX
+                  +212 77 09 18 995
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -145,7 +145,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <FaWhatsapp className="w-5 h-5 text-teal flex-shrink-0" />
                 <a
-                  href="https://wa.me/2126XXXXXXX"
+                  href="https://wa.me/212770918995"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-teal transition-colors duration-300 text-sm"

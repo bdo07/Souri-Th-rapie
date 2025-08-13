@@ -84,7 +84,7 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.6 }}
               viewport={{ once: true }}
-              onClick={() => window.open('https://wa.me/2126XXXXXXX', '_blank')}
+              onClick={() => window.open('https://wa.me/212770918995', '_blank')}
               className="bg-gradient-to-r from-teal to-royal-blue text-white px-8 py-4 rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300"
             >
               Learn More About Us

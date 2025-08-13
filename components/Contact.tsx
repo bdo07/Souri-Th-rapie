@@ -18,7 +18,7 @@ const Contact = () => {
     {
       icon: FaMapMarkerAlt,
       title: t('address'),
-      content: '123 Wellness Street, Medical District, City, Country',
+      content: '123 Wellness Street, Medical District, SAFI, MOROCCO',
       action: 'Get Directions',
       actionIcon: FaDirections,
       actionHandler: () => window.open('https://maps.google.com/?q=123+Wellness+Street', '_blank')
@@ -26,10 +26,10 @@ const Contact = () => {
     {
       icon: FaPhone,
       title: t('phone'),
-      content: '+212 6XX XX XX XX',
+      content: '+212 77 09 18 995',
       action: 'Call Now',
       actionIcon: FaPhone,
-      actionHandler: () => window.open('tel:+2126XXXXXXX', '_self')
+      actionHandler: () => window.open('tel:+212770918995', '_self')
     },
     {
       icon: FaEnvelope,
@@ -45,7 +45,7 @@ const Contact = () => {
       content: t('hoursValue'),
       action: 'Book Appointment',
       actionIcon: FaWhatsapp,
-      actionHandler: () => window.open('https://wa.me/2126XXXXXXX', '_blank')
+      actionHandler: () => window.open('https://wa.me/212770918995', '_blank')
     }
   ]
 
@@ -127,14 +127,14 @@ const Contact = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
-                  onClick={() => window.open('https://wa.me/2126XXXXXXX', '_blank')}
+                  onClick={() => window.open('https://wa.me/212770918995', '_blank')}
                   className="flex items-center justify-center space-x-2 bg-white text-teal px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300"
                 >
                   <FaWhatsapp className="w-5 h-5" />
                   <span>WhatsApp</span>
                 </button>
                 <button
-                  onClick={() => window.open('tel:+2126XXXXXXX', '_self')}
+                  onClick={() => window.open('tel:+212770918995', '_self')}
                   className="flex items-center justify-center space-x-2 bg-transparent border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-teal transition-colors duration-300"
                 >
                   <FaPhone className="w-5 h-5" />
@@ -176,7 +176,7 @@ const Contact = () => {
                   <div>
                     <p className="font-medium text-gray-900">Souri Thérapie</p>
                     <p className="text-gray-600">123 Wellness Street, Medical District</p>
-                    <p className="text-gray-600">City, Country</p>
+                    <p className="text-gray-600">SAFI, MOROCCO</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">

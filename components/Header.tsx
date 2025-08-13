@@ -44,11 +44,11 @@ const Header = () => {
   ]
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/2126XXXXXXX', '_blank')
+    window.open('https://wa.me/212770918995', '_blank')
   }
 
   const handleCall = () => {
-    window.open('tel:+2126XXXXXXX', '_self')
+    window.open('tel:+212770918995', '_self')
   }
 
   return (
