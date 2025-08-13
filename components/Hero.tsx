@@ -8,11 +8,11 @@ const Hero = () => {
   const t = useTranslations('hero')
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/2126XXXXXXX', '_blank')
+    window.open('https://wa.me/212770918995', '_blank')
   }
 
   const handleCall = () => {
-    window.open('tel:+2126XXXXXXX', '_self')
+    window.open('tel:+212770918995', '_self')
   }
 
   const scrollToServices = () => {
@@ -30,22 +30,13 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        {/* Hero Content */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="space-y-8"
+          transition={{ duration: 0.8, delay: 0.1 }}
+          className="text-center max-w-4xl mx-auto"
         >
-          {/* Badge */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="inline-flex items-center px-4 py-2 bg-white/90 backdrop-blur-sm rounded-full shadow-lg"
-          >
-            <span className="text-sm font-medium text-teal">🌟 Premium Wellness Services</span>
-          </motion.div>
-
           {/* Main Title */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}

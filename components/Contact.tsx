@@ -18,18 +18,18 @@ const Contact = () => {
     {
       icon: FaMapMarkerAlt,
       title: t('address'),
-      content: '123 Wellness Street, Medical District, City, Country',
-      action: 'Get Directions',
+      content: t('addressValue'),
+      action: t('getDirections'),
       actionIcon: FaDirections,
-      actionHandler: () => window.open('https://maps.google.com/?q=123+Wellness+Street', '_blank')
+      actionHandler: () => window.open('https://maps.google.com/?q=Jnane+Koloun+Safi+Morocco', '_blank')
     },
     {
       icon: FaPhone,
       title: t('phone'),
-      content: '+212 6XX XX XX XX',
+      content: '+212 77 09 18 995',
       action: 'Call Now',
       actionIcon: FaPhone,
-      actionHandler: () => window.open('tel:+2126XXXXXXX', '_self')
+      actionHandler: () => window.open('tel:+212770918995', '_self')
     },
     {
       icon: FaEnvelope,
@@ -45,7 +45,7 @@ const Contact = () => {
       content: t('hoursValue'),
       action: 'Book Appointment',
       actionIcon: FaWhatsapp,
-      actionHandler: () => window.open('https://wa.me/2126XXXXXXX', '_blank')
+      actionHandler: () => window.open('https://wa.me/212770918995', '_blank')
     }
   ]
 
@@ -120,25 +120,25 @@ const Contact = () => {
               className="bg-gradient-to-r from-teal to-royal-blue rounded-2xl p-8 text-white"
             >
               <h3 className="text-2xl font-bold mb-4">
-                Need Immediate Assistance?
+                {t('needAssistance')}
               </h3>
               <p className="text-lg mb-6 opacity-90">
-                Our team is here to help you with any questions or concerns
+                {t('assistanceDescription')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
-                  onClick={() => window.open('https://wa.me/2126XXXXXXX', '_blank')}
+                  onClick={() => window.open('https://wa.me/212770918995', '_blank')}
                   className="flex items-center justify-center space-x-2 bg-white text-teal px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300"
                 >
                   <FaWhatsapp className="w-5 h-5" />
-                  <span>WhatsApp</span>
+                  <span>{t('whatsapp')}</span>
                 </button>
                 <button
-                  onClick={() => window.open('tel:+2126XXXXXXX', '_self')}
+                  onClick={() => window.open('tel:+212770918995', '_self')}
                   className="flex items-center justify-center space-x-2 bg-transparent border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-teal transition-colors duration-300"
                 >
                   <FaPhone className="w-5 h-5" />
-                  <span>Call Now</span>
+                  <span>{t('callNow')}</span>
                 </button>
               </div>
             </motion.div>
@@ -168,29 +168,26 @@ const Contact = () => {
             {/* Location Details */}
             <div className="bg-white rounded-xl p-6 border border-gray-100 shadow-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-4">
-                Visit Our Clinic
+                {t('visitClinic')}
               </h3>
               <div className="space-y-3">
                 <div className="flex items-start space-x-3">
                   <FaMapMarkerAlt className="w-5 h-5 text-teal mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-medium text-gray-900">Souri Thérapie</p>
-                    <p className="text-gray-600">123 Wellness Street, Medical District</p>
-                    <p className="text-gray-600">City, Country</p>
+                    <p className="text-gray-600">{t('addressValue')}</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <FaClock className="w-5 h-5 text-teal mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-medium text-gray-900">Opening Hours</p>
-                    <p className="text-gray-600">Monday - Friday: 9:00 AM - 7:00 PM</p>
-                    <p className="text-gray-600">Saturday: 9:00 AM - 5:00 PM</p>
-                    <p className="text-gray-600">Sunday: Closed</p>
+                    <p className="font-medium text-gray-900">{t('hours')}</p>
+                    <p className="text-gray-600 whitespace-pre-line">{t('hoursValue')}</p>
                   </div>
                 </div>
               </div>
               <button
-                onClick={() => window.open('https://maps.google.com/?q=123+Wellness+Street', '_blank')}
+                onClick={() => window.open('https://maps.google.com/?q=Jnane+Koloun+Safi+Morocco', '_blank')}
                 className="mt-4 w-full bg-gradient-to-r from-teal to-royal-blue text-white py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2"
               >
                 <FaDirections className="w-5 h-5" />
